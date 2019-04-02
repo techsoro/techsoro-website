@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: My website
+title: TechSoro
 
 # Short description of your site
 description: A virtual proof that name is awesome!
@@ -23,6 +23,7 @@ description: A virtual proof that name is awesome!
 
 # List of links in the navigation bar
 navbar-links:
+  Blog: "blog"
   About Me: "aboutme"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
@@ -64,7 +65,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: Shekhar Patil
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -72,10 +73,10 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "someone@example.com"
-  facebook: daattali
-  github: daattali
-  twitter: daattali
+  email: "shekharpatil900@gmail.com"
+  github: shekhar-patil
+  twitter: Shekharpatil95
+#  facebook: 
 #  reddit: yourname
 #  google-plus: +DeanAttali
 #  linkedin: daattali
@@ -153,7 +154,7 @@ excerpt_length: 50
 
 # Character used to separate site title and description in HTML document title
 # and RSS feed title
-title-separator: "-"
+title-separator: "|"
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
@@ -163,7 +164,8 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
-
+permalink: /blog/:year/:title/
+paginate_path: /blog/page:num/
 kramdown:
   input: GFM
 
