@@ -11,8 +11,14 @@ layout: null
   justify-content: space-around;
 }
 .flex-box{
-  flex: 50%;
+  flex: 33%;
   padding: 20px;
+}
+@media screen and (max-width: 768px) {
+  .flex-box {   
+    flex: 100%;
+    text-align: left;
+  }
 }
 
 /* --- General --- */
