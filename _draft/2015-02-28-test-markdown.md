@@ -4,7 +4,7 @@ title: Web development in rails
 subtitle: Each post also has a subtitle
 gh-repo: shekhar-patil/ranklist
 gh-badge: [star, fork, follow]
-tags: [test]
+tags: [shekhar]
 comments: true
 ---
 
