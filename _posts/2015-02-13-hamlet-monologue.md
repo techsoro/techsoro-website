@@ -1,7 +1,7 @@
 ---
 layout: post
-title: To be
-subtitle: ... or not to be?
+title: Rails Association
+subtitle: has_many belongs_to 
 tags: [books, shakespeare, test]
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Test markdown
+title: Web development in rails
 subtitle: Each post also has a subtitle
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
