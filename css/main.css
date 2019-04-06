@@ -13,15 +13,23 @@ layout: null
 .flex-box{
   text-align: left;
   flex: 33%;
-  padding: 20px;
+  padding: 18px;
 }
 .flex-box h3{
-  height: 50px;
+  height: 40px;
 }
 @media screen and (max-width: 768px) {
   .flex-box {   
     flex: 100%;
+    padding: 0px;
+    margin: 0px;
     text-align: left;
+  }
+  .flex-box p {
+    margin-top: 0px;
+  }
+  .flex-box h3 {
+    height: 23px;
   }
 }
 
