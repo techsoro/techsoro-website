@@ -11,8 +11,12 @@ layout: null
   justify-content: space-around;
 }
 .flex-box{
+  text-align: left;
   flex: 33%;
   padding: 20px;
+}
+.flex-box h3{
+  height: 50px;
 }
 @media screen and (max-width: 768px) {
   .flex-box {   
@@ -547,10 +551,10 @@ footer .theme-by {
     padding: 150px 0;
   }
   .intro-header .page-heading h1 {
-    font-size: 80px;
+    font-size: 56px;
   }
   .intro-header .post-heading h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
   .intro-header.big-img .img-desc {
     font-size: 14px;
@@ -768,6 +772,11 @@ td.gutter {
 
 .gist, .gist-file table tr td {
   border: unset;
+}
+
+/* navbar */
+.navbar-brand{
+  font-size: 26px;
 }
 
 /* Fix .navbar-toggle */
