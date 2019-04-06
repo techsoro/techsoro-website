@@ -2,7 +2,7 @@
 layout: post
 title: Web development in rails
 subtitle: Each post also has a subtitle
-gh-repo: daattali/beautiful-jekyll
+gh-repo: shekhar-patil/ranklist
 gh-badge: [star, fork, follow]
 tags: [test]
 comments: true
