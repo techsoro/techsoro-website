@@ -101,10 +101,10 @@ url-pretty: "techsoro.com"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
+gtag: "137827458"
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "137827458"
 
 # Google Tag Manager ID
 #gtm: ""
