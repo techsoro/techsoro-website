@@ -32,6 +32,19 @@ layout: null
     height: 23px;
   }
 }
+/*--- Section ---*/
+section { 
+  display: block;
+  background-color: #d9e7f0;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+}
 
 /* --- General --- */
 
