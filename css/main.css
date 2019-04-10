@@ -32,12 +32,23 @@ layout: null
     height: 23px;
   }
 }
-/*--- Section ---*/
+/*--- Main Page content ---*/
 .main-page-section { 
   display: block;
   background-color: #d9e7f0;
   margin-top: 0px;
   
+}
+
+.heading-border--small {
+  border-radius: 0.3rem;
+  background: #0F82E6;
+  height: 3px;
+  width: 45px;
+  margin: 0 0 2.8rem;
+}
+.main-page h1{
+    font-weight:600;
 }
 
 
