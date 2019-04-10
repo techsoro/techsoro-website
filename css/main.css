@@ -33,7 +33,7 @@ layout: null
   }
 }
 /*--- Section ---*/
-section { 
+.main-page-section { 
   display: block;
   background-color: #d9e7f0;
   margin-top: 15px;
