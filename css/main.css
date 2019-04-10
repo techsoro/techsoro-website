@@ -36,8 +36,10 @@ layout: null
 .main-page-section { 
   display: block;
   background-color: #d9e7f0;
-  margin-top: 15px;
+  margin-top: 0px;
+  
 }
+
 
 @media screen and (max-width: 768px) {
   section {

@@ -18,7 +18,7 @@
   ></div>
 {% endif %}
 
-<header class="header-section {% if page.bigimg %}has-img{% endif %}">
+<header class="header-section {% if page.bigimg %}has-img{% endif %} {% if page.indexpage %}main-page{% endif %}">
 {% if page.bigimg %}
 <div class="big-img intro-header">
   <div class="container">
@@ -33,7 +33,13 @@
 			{% else %}
 			<h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
 			{% endif %}
-		  {% endif %}
+      {% endif %}
+      
+      {% if page.indexpage %}
+        <center>
+            <h3>We are team of developers. We build mini software projects for industries and college students.</h3>
+        </center>
+      {% endif %}
 		  
 		  {% if include.type == "post" %}
 		  <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
