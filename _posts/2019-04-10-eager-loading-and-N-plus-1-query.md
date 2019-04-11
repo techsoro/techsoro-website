@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Eager loading and N+1 query
+title: Eager loading and N+1 query in rails
 subtitle: Difference between Eager loading and N+1 query in rails.
 tags: [Rails 5,Ruby]
 comments: true
