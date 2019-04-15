@@ -25,7 +25,7 @@ description: Make it Possible!
 navbar-links:
   Blog: "blog"
   About us: "aboutus"
-  Projects: "Projects"
+  Projects: "Project"
   Resources:
     - GitHub Pages: "https://pages.github.com/"
 
