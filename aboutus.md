@@ -1,14 +1,11 @@
 ---
 layout: page
 title: About us
-subtitle: We are professional Software developer team.
+subtitle: Building team of developers.
 ---
 
-We are software developer team. Currently working from Pune, India.
+My name Shekhar Patil I am Ruby on Rails developer, swimmer, and technical blog writer from Pune.
 
-We love developing projects on Ruby on Rails, Python, Java, PHP.
+Currently, I am the solo blog writer at techSoro and I am building a team of developers to develop mini projects and to organize workshops for website development.
 
-We are good in developing mini projects for Engineering college and Polytechnic Colleges.
-
-As we all are working in different organisations it will be great experience for you to 
-develope your College projects with us.
+It will be a great experience to work together and build something good. If you are interested then contact me at patilshekhar900@gmail.com
