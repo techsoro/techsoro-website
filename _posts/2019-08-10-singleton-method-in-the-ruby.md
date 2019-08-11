@@ -6,7 +6,7 @@ tags: [Ruby]
 comments: true
 ---
 
-Today I attend Ruby Conference at Pune and one talk from many others was about Singleton method and metaclasses in ruby and I thought to write a blog about it.
+Today I attend Ruby Conference at Pune and Singleton method and metaclass in ruby was one of the talk discussed there So,I thought to write a blog about it.
 
 In ruby, we create the class and class has many methods written into it. When we create an object of the class we can access those methods using that object. So, the question raise in my mind was as follows.
 
