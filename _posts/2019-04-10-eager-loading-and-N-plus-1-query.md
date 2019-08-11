@@ -68,7 +68,7 @@ This time we'll use one query to fetch the students and another for fetching the
 Student Load (0.4ms) SELECT "students".* FROM "students"
 College Load (0.4ms) SELECT "colleges".* FROM "colleges" WHERE "colleges"."id" IN (?, ?, ?, ?) [["id", 1], ["id", 2], ["id", 3], ["id", 4]]
 ```
-Now, we'll required only two queries. Even though we wanted 10000 records only two queries are required to fetch the records from the database and it will improve the perfomance of our application.
+Now, we'll required only two queries. Even though we wanted 10000 records only two queries are required to fetch the records from the database and it will improve the performance of our application.
 
 For comparison, the time necessary to load and display 10 builds in my system is 2.1 milliseconds without eager loading and only 0.8 milliseconds with eager loading. This is s huge difference. Currently, In the case of a large number of record fetching, this time difference can be even far more.
 
