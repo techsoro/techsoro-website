@@ -3,6 +3,7 @@ layout: post
 title: Scope in rails.
 subtitle: Why we should use Scope instead of the class method in rails.
 tags: [rails]
+author: Shekhar Patil
 ---
 
 Rails follow the DRY principle of software development and that is 'Don't Repeat Yourself'.

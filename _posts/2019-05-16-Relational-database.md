@@ -3,6 +3,7 @@ layout: post
 title: Relational database
 subtitle: Why to use a relational database?
 tags: [MySQL]
+author: Shekhar Patil
 comments: true
 ---
 

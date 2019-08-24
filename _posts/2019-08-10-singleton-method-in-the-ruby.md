@@ -3,6 +3,7 @@ layout: post
 title: Singleton method in the ruby
 subtitle: 
 tags: [Ruby]
+author: Shekhar Patil
 comments: true
 ---
 
