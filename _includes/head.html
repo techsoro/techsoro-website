@@ -4,13 +4,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
   <title>{% if page.use-site-title %}{{ site.title }} {{ site.title-separator }} {{ site.description }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <link rel="shortcut icon" type="image/png" href="favicon.png">
-  <meta name="author" content="{{ site.author.name }}" />
+  <meta name="company-team" content="{{ site.author.name }}" />
 
   {% if page.subtitle %}
     <meta name="description" content="{{ page.subtitle }}">
   {% endif %}
   {% if page.author %}
-    <meta name="description" content="{{ page.author }}">
+    <meta name="author" content="{{ page.author }}">
   {% endif %}
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} {{ site.title-separator }} {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
