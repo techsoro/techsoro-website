@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Singleton method in the ruby
-subtitle: 
+subtitle: How to use a Singleton method in the rails. 
 tags: [Ruby]
 author: Shekhar Patil
 comments: true

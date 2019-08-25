@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to merge objects in Javascript.
-subtitle: Difference between Eager loading and N+1 query in rails.
+subtitle: Extend, Merge methods in the Javascript.
 tags: [Javascript]
 author: Shekhar Patil
 comments: true
