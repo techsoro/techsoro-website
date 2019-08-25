@@ -413,6 +413,11 @@ footer .theme-by {
 .post-preview .post-entry {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+@media only screen and (max-width: 768px) {
+  .post-entry{
+    display: none;
+  }
+}
 .post-entry-container {
   display: inline-block;
   width: 100%;
