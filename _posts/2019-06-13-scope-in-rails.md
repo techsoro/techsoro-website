@@ -2,7 +2,7 @@
 layout: post
 title: Scope in rails.
 subtitle: Why we should use Scope instead of the class method in rails.
-tags: [rails]
+tags: [Rails]
 author: Shekhar Patil
 ---
 
