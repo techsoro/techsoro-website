@@ -4,6 +4,13 @@ layout: null
 
 @import url("pygment_highlights.css");
 
+.myImg {
+    width: 15%;
+    border-radius: 50%;
+    height: auto;
+    
+}
+
 /* ---flexbox---*/
 .flex-container {
   display: flex;
