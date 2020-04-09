@@ -2,7 +2,7 @@
 layout: post
 title: Permission denied!
 subtitle: Postgres users and their permission issue.
-tags: [Ruby]
+tags: [Rails, Postgres]
 author: Shekhar Patil
 ---
 
