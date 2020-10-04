@@ -5,7 +5,7 @@ layout: null
 @import url("pygment_highlights.css");
 
 .myImg {
-    width: 30%;
+    width: 20%;
     border-radius: 50%;
     height: auto;
 }
@@ -21,11 +21,11 @@ layout: null
   }
 }
 /*--- Main Page content ---*/
-.main-page-section { 
+.main-page-section {
   display: block;
   background-color: #d9e7f0;
   margin-top: 0px;
-  
+
 }
 
 .heading-border--small {
