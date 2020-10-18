@@ -4,6 +4,7 @@ title: Scope in rails.
 subtitle: Why we should use Scope instead of the class method in rails.
 tags: [Rails]
 author: Shekhar Patil
+comments: true
 ---
 
 Rails follow the DRY principle of software development and that is 'Don't Repeat Yourself'.
@@ -28,8 +29,8 @@ end
 
 Now, we can simply use an active scope to fetch all active users as following:
 
-```ruby 
-def index 
+```ruby
+def index
   @active_users = User.active
 end
 ```
@@ -71,7 +72,7 @@ def index
 end
 ```
 
-## 3. How exactly scope works in rails 
+## 3. How exactly scope works in rails
 
 look at the active scope once again
 
@@ -80,7 +81,7 @@ class user < ActiveRecord::Base
   scope :active, -> { where(status: "active") }
 end
 ```
-we can achieve the same result using the following class method as given. Basically, instead of writing class method scope is syntactical sugar for writing queries. 
+we can achieve the same result using the following class method as given. Basically, instead of writing class method scope is syntactical sugar for writing queries.
 
 ```ruby
 

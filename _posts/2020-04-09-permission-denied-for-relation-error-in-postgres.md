@@ -4,6 +4,7 @@ title: Permission denied!
 subtitle: Postgres users and their permission issue.
 tags: [Rails, Postgres]
 author: Shekhar Patil
+comments: true
 ---
 
 Have you ever faced the following issue while fetching records from Postgres in the rails?
