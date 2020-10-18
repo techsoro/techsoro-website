@@ -71,7 +71,7 @@ social-network-links:
   email: "patilshekhar900@gmail.com"
   github: techsoro
   twitter: techsoro
-#  facebook: 
+#  facebook:
 #  reddit: yourname
 #  google-plus: +DeanAttali
 #  linkedin: daattali
@@ -95,7 +95,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "techsoro.com"  
+url-pretty: "techsoro.com"
 
 # --- Web Statistics Section --- #
 
@@ -120,7 +120,7 @@ google_analytics: "137827458"
 # --- Comments --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-# disqus: ""
+disqus: "https://techsoro"
 # If you want to use just-comments fill with the API Key
 #just-comments: "ABCD-EFGH-IJKL"
 
@@ -251,3 +251,4 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-debug
