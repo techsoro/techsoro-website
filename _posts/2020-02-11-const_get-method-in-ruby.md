@@ -4,6 +4,7 @@ title: The const_get method in the ruby.
 subtitle: Do you know how helpful the const_get method is?
 tags: [Ruby]
 author: Shekhar Patil
+comments: true
 ---
 
 First, we will understand how the const_get method works then I will explain how we can use it in different ways and what are the use cases.
@@ -59,7 +60,7 @@ module Vehicle
 end
 
 wheel_const = 'Vehicle::TeslaS::WHEELS'
-puts Object.const_get(wheel_const, false)  
+puts Object.const_get(wheel_const, false)
 
 #  Output:
 #  Traceback (most recent call last):
