@@ -4,6 +4,7 @@ title: What is Rake task and how to use it?
 subtitle: How to create and use Rake task in ruby and use it in the Rails?
 tags: [Ruby, Rails]
 author: Shekhar Patil
+comments: true
 ---
 
 # Introduction
